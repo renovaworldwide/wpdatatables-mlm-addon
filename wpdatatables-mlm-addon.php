@@ -1,8 +1,4 @@
 <?php
-/**
- * @package wpDataTables MLM Addon
- * @version 1.0
- */
 /*
   Plugin Name: wpDataTables MLM Addon
   Plugin URI: https://renovaworldwide.com/
