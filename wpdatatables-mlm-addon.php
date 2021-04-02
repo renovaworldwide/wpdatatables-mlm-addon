@@ -100,7 +100,7 @@ if (!class_exists('WPDataTable_Customization')) {
                     }
 
                 </style>
-                <div class="commision_period_filter" style="position: absolute; left: 21%; top: 55px;z-index: 9999">
+                <div class="commision_period_filter" style="position: absolute; left: 21%; top: 55px;z-index: 9999; display: inline-block">
                     <!-- <center> -->
                     <label for="filter_by_commission_period">Monthly:</label>
                     <select class="btn-default btn-group period_filter" id="filter_by_commission_period" data-dt-id="<?php echo $table_id; ?>" data-period="monthly">
@@ -153,7 +153,7 @@ if (!class_exists('WPDataTable_Customization')) {
                         position: relative;
                     }
                 </style>
-                <div class="weekly_period_filter" style="position: absolute; left: 48%; top: 55px;z-index: 9999">
+                <div class="weekly_period_filter" style="position: absolute; left: 48%; top: 55px;z-index: 9999;display: inline-block">
                     <!-- <center> -->
                     <label for="filter_by_weekly_period">Weekly:</label>
                     <select class="btn-default btn-group period_filter" id="filter_by_weekly_period" data-dt-id="<?php echo $table_id; ?>" data-period="weekly">
